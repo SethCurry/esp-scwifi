@@ -1,0 +1,4 @@
+version: "0.0.1"
+description: "A component for easily configuring basic wifi"
+url: "https://github.com/SethCurry/esp-scwifi"
+
