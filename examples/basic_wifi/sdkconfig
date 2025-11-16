@@ -1,0 +1,3 @@
+CONFIG_WIFI_SSID="my-ssid"
+CONFIG_WIFI_PASSWORD="my-wifi-password"
+

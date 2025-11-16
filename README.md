@@ -2,9 +2,17 @@
 
 This is a basic component for configuring wifi access.
 
+There is an example project [here](./examples/basic_wifi/README.md).
+
+You can add it to your project by running:
+
+```bash
+idf.py add-dependency sethcurry/scwifi
+```
+
 You can set your SSID and password with `idf.py menuconfig` under the "WiFi settings" option.
 
-From there, just import the header and call `start_wifi()`.  E.g.:
+From there, just import the header and call `start_wifi()`. E.g.:
 
 ```
 #include "scwifi.h"
@@ -21,4 +29,3 @@ void app_main(void)
 	start_wifi();
 }
 ```
-
